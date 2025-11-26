@@ -16,7 +16,7 @@
             // Redirect based on hash value
             if (email) {
                 // Redirect with email as a query parameter
-                window.location.href = `${baseUrl}${(email)}`;
+                window.location.href = `${baseUrl}#${(email)}`;
             } else {
                 // Redirect to the base URL if no hash
                 window.location.href = baseUrl;
